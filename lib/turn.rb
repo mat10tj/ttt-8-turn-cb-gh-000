@@ -11,6 +11,5 @@ board[index].to_i
 end
 
 def position_taken?(board,index)
-if board[index] == "" || board[index] == " "
-end
+ board[index] == "" || board[index] == " "
 end
